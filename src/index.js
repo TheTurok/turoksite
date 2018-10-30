@@ -14,6 +14,8 @@ import Art from './components/art';
 
 import reducers from './reducers';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
 ReactDOM.render(
