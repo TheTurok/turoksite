@@ -10,8 +10,8 @@ export default class Header extends Component {
         <img id = "pic" className = "img-circle img-responsive" src={require('../files/profile2.jpg')} />
         <h1> Timothy Choi </h1>
         <div class = "row-fluid">
-          <div class = "links" >
-            <Link to = "/" className = "col-md-2 col-md-offset-1 "> Home </Link>
+          <div class = "links"  >
+            <Link to = "/" className = "col-md-2 col-md-offset-1"> Home </Link>
             <Link to = "/art" className = "col-md-2"> Art </Link>
             <Link to = "/melee" className = "col-md-2"> Melee </Link>
             <Link to = "/contact" className = "col-md-2 "> Contact </Link>
