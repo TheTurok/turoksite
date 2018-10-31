@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 
 export default class Home extends Component {
@@ -10,6 +11,10 @@ export default class Home extends Component {
           My focus is on web development. I usually make applictions in Javascript using React,
           and I'm well versed in Java and C++.
           <br/> <br/>
+          Used React.js and Node.js for this website
+          <br/>
+          <Link to = "https://github.com/TheTurok/turoksite" > Website Code </Link>
+          <br/><br/>
           My hobbies include Competititve Gaming: Super Smash Bros. Melee, Karaoke,
           Visual Art, Dancing, and many more!
         </p>

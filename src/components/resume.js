@@ -1,37 +1,11 @@
 import React, { Component } from 'react';
-import {Document, Page} from 'react-pdf';
 
 class Resume extends Component {
-  constructor(props){
-    super(props);
-
-    this.state = {
-      numPages: null,
-      pageNumber: 1
-    }
-  }
-
-  onDocumentLoad = ( {numPages}) => {
-    this.setState({numPages});
-  }
-
   render() {
-    const {pageNumber, numPages} = this.state;
-
     return (
       <div>
-        <Document
-          file = './resume.pdf'
-          onLoadSuccess = {this.onDocumentLoad}
-          >
-            <Page pageNumber = {pageNumber} />
-        </Document>
-        <p> Page {pageNumber} of {numPages}</p>
-          <iframe src="./files/resume.pdf"> yo</iframe>
+        <iframe id = "resume" src="https://docs.google.com/document/d/e/2PACX-1vTO5RarM7iIhvV9hm5Bvg585kUMHG9PzTNMnI9jCFJvuW7yfUEUpCKC5cgu533CbbuXRAIBSRjB_cwX/pub?embedded=true" height="900" width="850" ></iframe>
       </div>
-
-
-
     );
   }
 }
