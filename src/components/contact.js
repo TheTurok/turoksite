@@ -7,7 +7,6 @@ export default class Contact extends Component {
       <div>
         This is Contact!
       </div>
-
     );
   }
 }
