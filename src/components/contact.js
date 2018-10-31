@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
 import '../styles/style.css'
 
 
 export default class Contact extends Component {
   render() {
     return (
-      <div >
+      <div className = "content">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
         <a href="mailto:turokchoi@gmail.com" target = "_blank" class="fa fa-envelope"></a>

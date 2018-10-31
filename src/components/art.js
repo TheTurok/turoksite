@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 export default class Art extends Component {
   render() {
     return (
-      <div>
+      <div className = "content">
         This is Art!
       </div>
 

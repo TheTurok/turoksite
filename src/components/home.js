@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
-
 
 export default class Home extends Component {
   render() {
     return (
-      <div className = "col-sm-12 col-md-8 col-md-offset-2">
+      <div className = "col-sm-12 col-md-8 col-md-offset-2 content">
         <p>
           I graduated from Univeristy of California, San Diego 2017 with a B.S. Computer Science.
           My focus in software enginering is web development. I make websites using React.
@@ -30,12 +28,6 @@ export default class Home extends Component {
 
           <div>Github Contributions</div>
           <img src="http://ghchart.rshah.org/409ba5/theturok" alt="2016rshah's Github chart" />
-
-          <br/> <br/>
-
-          Used React.js and Node.js for this website
-          <br/>
-          <Link to = "https://github.com/TheTurok/turoksite" target = "_blank" > Github: Website Code </Link>
 
         </p>
       </div>
