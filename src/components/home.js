@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <div className = "col-sm-12 col-md-8 col-md-offset-2">
         <p>
           I graduated from Univeristy of California, San Deigo 2017 with a B.S. Computer Science.
           My focus is on web development. I usually make applictions in Javascript using React,

@@ -5,6 +5,7 @@ class Resume extends Component {
     return (
       <div>
         <iframe id = "resume" src="https://docs.google.com/document/d/e/2PACX-1vTO5RarM7iIhvV9hm5Bvg585kUMHG9PzTNMnI9jCFJvuW7yfUEUpCKC5cgu533CbbuXRAIBSRjB_cwX/pub?embedded=true" height="900" width="850" ></iframe>
+        <iframe id = "resume" src={require('../files/timothychoiresume2018.pdf')} height="1150" width="850" ></iframe>
       </div>
     );
   }
