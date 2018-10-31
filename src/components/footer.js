@@ -8,7 +8,7 @@ export default class Footer extends Component {
       <div id = "foot" className = "col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-2">
         <br/> <br/>
 
-        Used React.js and Node.js for this website
+        Powered by React.js and Node.js
         <br/>
         <Link to = "https://github.com/TheTurok/turoksite" target = "_blank" > Github: Website Code </Link>
       </div>
