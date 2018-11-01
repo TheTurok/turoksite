@@ -15,7 +15,7 @@ export default class Contact extends Component {
     };
 
     this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit - this.handleSubmit.bind(this);
+    //this.handleSubmit - this.handleSubmit.bind(this);
   }
 
   handleChange = e => {
@@ -24,7 +24,7 @@ export default class Contact extends Component {
     }) ;
   }
 
-  async handleSubmit(e) {
+/*  async handleSubmit(e) {
     e.preventDefault();
 
     const {name, email, message} = this.state;
@@ -34,7 +34,7 @@ export default class Contact extends Component {
       email,
       message
     });
-  }
+  } */
 
   render() {
     return (
