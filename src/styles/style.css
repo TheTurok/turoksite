@@ -2,14 +2,24 @@ html, body, *{
   background-color: #bfecff;
 }
 
-
-
 .content{
   min-height: calc(100vh - 30vh - 236px);
 }
 
 #foot a{
   text-decoration: none;
+}
+
+#icons, #foot{
+  text-align: center;
+}
+
+form button{
+  margin-top: 12px;
+}
+
+form label{
+  margin-top: 12px;
 }
 
 .fa {
@@ -21,6 +31,8 @@ html, body, *{
   margin: 15px 17px;
   border-radius: 50%;
 }
+
+
 
 .links a:hover{
   text-decoration: none;

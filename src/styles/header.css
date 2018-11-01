@@ -1,9 +1,11 @@
-.container {
-  text-align: center;  margin: 20px;
+#head{
+  text-align: center;
+  margin: 20px;
 }
 
 .links{
   white-space: nowrap;
+
 }
 
 .links a {
