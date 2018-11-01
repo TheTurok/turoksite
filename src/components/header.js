@@ -7,7 +7,7 @@ export default class Header extends Component {
   render() {
     return (
       <div id = "head" class = "container">
-        <img id = "pic" className = "img-circle img-responsive" src={require('../files/profile2.jpg')} />
+        <img id = "pic" alt  = "profile" className = "img-circle img-responsive" src={require('../files/profile2.jpg')} />
         <h1> Timothy Choi </h1>
         <div class = "row-fluid">
           <div class = "links"  >
