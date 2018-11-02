@@ -19,14 +19,15 @@ export default class Home extends Component {
 
           <br/><br/>
 
-
+          <div id = "hobby" >
           <h5>Hobbies</h5>
           Competititve Gaming: Super Smash Bros. Melee <br/>
           Karaoke, Visual Art, Dancing, Poker
+          </div>
 
-          <br/> <br/>
+          <br/>
 
-          <div>Github Contributions</div>
+          <div class = "res">Github Contributions</div>
           <img src="http://ghchart.rshah.org/409ba5/theturok" alt="2016rshah's Github chart" />
 
         </p>
