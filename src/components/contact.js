@@ -36,6 +36,28 @@ export default class Contact extends Component {
     });
   } */
 
+  /*
+  <Form onSubmit = {this.handleSubmit}>
+    <FormGroup className = "col-md-6 col-md-offset-3">
+      <Label for ="name" s>Name</Label>
+      <Input
+        type = "text"
+        name = "name"
+        onChange = {this.handleChange} />
+      <Label for ="email">Email</Label>
+      <Input
+        type = "text"
+        name = "email"
+        onChange = {this.handleChange} />
+      <Label for ="message">Message</Label>
+      <Input
+        type = "textarea"
+        name = "message"
+        onChange = {this.handleChange} />
+      <Button>Submit</Button>
+    </FormGroup>
+  </Form>  */
+
   render() {
     return (
       <div className = "content">
@@ -48,26 +70,7 @@ export default class Contact extends Component {
           <a href="https://github.com/TheTurok" target = "_blank" class="fa fa-github"></a>
         </div>
 
-        <Form onSubmit = {this.handleSubmit}>
-          <FormGroup className = "col-md-6 col-md-offset-3">
-            <Label for ="name" s>Name</Label>
-            <Input
-              type = "text"
-              name = "name"
-              onChange = {this.handleChange} />
-            <Label for ="email">Email</Label>
-            <Input
-              type = "text"
-              name = "email"
-              onChange = {this.handleChange} />
-            <Label for ="message">Message</Label>
-            <Input
-              type = "textarea"
-              name = "message"
-              onChange = {this.handleChange} />
-            <Button>Submit</Button>
-          </FormGroup>
-        </Form>
+
       </div>
     );
   }
