@@ -18,6 +18,9 @@ img[alt="Combo"]{
   margin: 10px;
   width: 75vh;
   height: 50vh;
+  padding:3px;
+  border:1px solid #000000;
+  background-color:#FFFFFF;
 }
 
 img[alt="Art"]{

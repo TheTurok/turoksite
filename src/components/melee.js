@@ -7,13 +7,13 @@ export default class Melee extends Component {
     return (
       <div className = "content text-center">
         <Link to = "/melee/marth" >
-          <img src={require('../melee/marth_icon.png')} alt = "Combo"/>
+          <img src={require('../melee/marth_icon.png')} alt = "Icons"/>
         </Link>
         <Link to = "/melee/falcon" >
-          <img src={require('../melee/falcon_icon.png')} alt = "Combo"/>
+          <img src={require('../melee/falcon_icon.png')} alt = "Icons"/>
         </Link>
         <Link to = "/melee/falco" >
-          <img src={require('../melee/falco_icon.png')} alt = "Combo"/>
+          <img src={require('../melee/falco_icon.png')} alt = "Icons"/>
         </Link>
 
         <h2>Choose Your Character</h2>
