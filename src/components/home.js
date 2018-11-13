@@ -5,8 +5,10 @@ export default class Home extends Component {
     return (
       <div className = "col-sm-12 col-md-8 col-md-offset-2 content">
         <p>
-          I graduated from Univeristy of California, San Diego 2017 with a B.S. Computer Science.
-          My focus in software enginering is web development. I make websites using React.
+          I graduated from Univeristy of California, San Diego 2017 with a B.S. in Computer Science.
+          My focus in software enginering is web development.
+          I chose this specification because it showcased my ability to create content that works smoothly and efficiently for up-and-coming entrepreneurs.
+          I make websites using React becauseit is simple yet it provides a degree of freedom that allows me to express my creative ability while meeting each client's demands.
 
           <br/><br/>
 
