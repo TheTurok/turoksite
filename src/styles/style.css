@@ -20,6 +20,15 @@ img[alt="Combo"]{
   height: 50vh;
 }
 
+img[alt="Art"]{
+  max-width: 100vh;
+  max-height: 100vh;
+  margin: 10px;
+  padding:3px;
+  border:1px solid #000000;
+  background-color:#FFFFFF;
+}
+
 #foot a{
   text-decoration: none;
 }
