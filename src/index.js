@@ -12,6 +12,7 @@ import Contact from './components/contact';
 import Resume from './components/resume';
 import Art from './components/art';
 import Melee from './components/melee';
+import Projects from './components/projects';
 import MeleeMarth from './components/melee_marth';
 import MeleeFalcon from './components/melee_falcon';
 import MeleeFalco from './components/melee_falco';
@@ -37,6 +38,7 @@ ReactDOM.render(
             <Route path ="/melee/marth" component={MeleeMarth} />
             <Route path ="/melee" component={Melee} />
 
+            <Route path ="/projects" component={Projects} />
             <Route path ="/contact" component={Contact} />
             <Route path ="/resume" component={Resume} />
             <Route path ="/art" component={Art} />
