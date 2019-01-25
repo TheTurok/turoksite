@@ -6,8 +6,7 @@ export default class Footer extends Component {
 
   render() {
     return (
-      <div id = "foot" className = "col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-2">
-        <br/> <br/>
+      <div id = "foot" className = "col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-2"> 
           <div id = "icons">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
