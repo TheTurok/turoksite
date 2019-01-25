@@ -11,13 +11,11 @@ export default class Header extends Component {
         <h1> Timothy Choi </h1>
         <div class = "row-fluid">
           <div class = "links"  >
-            <Link to = "/" className = "col-md-2"> Home </Link>
+            <Link to = "/" className = "col-md-2 col-md-offset-1"> Home </Link>
             <Link to = "/projects" className = "col-md-2"> Projects </Link>
             <Link to = "/art" className = "col-md-2"> Art </Link>
             <Link to = "/melee" className = "col-md-2"> Melee </Link>
-            <Link to = "/contact" className = "col-md-2 "> Contact </Link>
             <Link to = "/resume" className = "col-md-2"> Resume </Link>
-
           </div>
         </div>
       </div>
