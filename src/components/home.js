@@ -11,10 +11,7 @@ export default class Home extends Component {
 
           <br/><br/>
 
-
-          <br/><br/>
-
-          My passion is to express my creativity through any means because people are able to experience, enjoy, and hopefully be inspired by whatever I create. 
+          My passion is to express my creativity through any means because people are able to experience, enjoy, and hopefully be inspired by whatever I create.
           Visual art allows me to express myself through a physical art medium, dancing allows me to express myself through my body in every beat, and music lets my creativity flow through people's ears.
           Computer science is another passion of mine because I am similarly able to create things that people are able to enjoy and experience.
           With web development specifically, I can transform a client's vision, incorporate my creativity, and express ideas in clear and meaningful ways.

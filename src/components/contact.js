@@ -13,7 +13,7 @@ export default class Contact extends Component {
       email: "",
       message: ""
     };
-
+  
     this.handleChange = this.handleChange.bind(this);
     //this.handleSubmit - this.handleSubmit.bind(this);
   }

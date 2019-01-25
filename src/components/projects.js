@@ -13,8 +13,9 @@ export default class Projects extends Component {
           <p> Currently Developing a service that sends surveys to thousands of emails. Used Google OAuth with Passport.js for user authentication.
             My website is able to accept credit card payements using store credits with SendGrid.
 
+              <img src={require('../projectPictures/emaily1.png')} className="img-responsive " alt = "Combo"/>
             <br/>
-            <a target="_blank"  href="https://github.com/TheTurok/serverReact"> Emaily Github</a>
+              <a target="_blank"  href="https://github.com/TheTurok/serverReact"> Emaily Github</a>
 
           </p>
 
