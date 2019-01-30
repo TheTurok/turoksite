@@ -6,28 +6,6 @@ export default class Projects extends Component {
     return (
       <div className = "col-sm-12 col-md-8 col-md-offset-2 content">
         <br/>
-        <div className = "projectHeader"> <h2 style={{float: 'left'}}>Emaily </h2> <h5 style={{float: 'right'}}>  December 2019 - Current </h5></div>
-          <br/>
-          <hr/>
-          <p> Currently Developing a service that sends surveys to thousands of emails. Used Google OAuth with Passport.js for user authentication.
-            My website is able to accept credit card payements using store credits with SendGrid.
-
-              <img src={require('../projectPictures/emaily1.png')} className="img-responsive " alt = "Combo"/>
-            <br/>
-              <a target="_blank"  href="https://github.com/TheTurok/serverReact"> Emaily Github</a>
-
-          </p>
-
-        <div className = "projectHeader"> <h2 style={{float: 'left'}}>Speed </h2> <h5 style={{float: 'right'}}>  June 2018 </h5></div>
-          <br/>
-          <hr/>
-          <p> A card game simulation of speed built on Unity. Player versus Player.
-
-            <img src={require('../projectPictures/speed.png')} className="img-responsive" alt = "Combo"/>
-          <br/>
-            <a target="_blank"  href="https://github.com/TheTurok/SpeedTech"> Speed Github</a>
-          </p>
-
           <div className = "projectHeader"> <h2 style={{float: 'left'}}>Weather Maps </h2> <h5 style={{float: 'right'}}>  Setember 2018 </h5></div>
             <br/>
             <hr/>
@@ -36,7 +14,7 @@ export default class Projects extends Component {
             Used OpenWeatherMap API to retreive weather data and Google Maps API for the citie's maps.
             •	Utilized action creators to fetch data from Google/OpenWeatherMap API while using middleware, redux-promise, to wait for ajax requests when retrieving resources from the websites.
 
-            <img src={require('../projectPictures/weathermap.png')} className="img-responsive" alt = "Combo"/>
+            <img src={require('../projectPictures/weatherPP.png')} className="img-responsive" alt = "projectPictures"/>
           <br/>
             <a target="_blank"  href="https://github.com/TheTurok/WeatherForecastApplication"> Weather Maps Github</a>
 
@@ -59,6 +37,30 @@ export default class Projects extends Component {
             <a target="_blank"  href="https://github.com/TheTurok/smash-ranks-android"> GarPr Github</a>
             <a target="_blank"  href="https://play.google.com/store/apps/details?id=com.garpr.android&hl=en_US"> GarPr PlayStore</a>
           </p>
+
+          <div className = "projectHeader"> <h2 style={{float: 'left'}}>Speed </h2> <h5 style={{float: 'right'}}>  June 2018 </h5></div>
+            <br/>
+            <hr/>
+            <p> A card game simulation of speed built on Unity. Player versus Player.
+
+              <img src={require('../projectPictures/speedPP.png')} className="img-responsive" alt = "projectPictures"/>
+            <br/>
+              <a target="_blank"  href="https://github.com/TheTurok/SpeedTech"> Speed Github</a>
+            </p>
+
+          <div className = "projectHeader"> <h2 style={{float: 'left'}}>Emaily </h2> <h5 style={{float: 'right'}}>  December 2019 - Current </h5></div>
+            <br/>
+            <hr/>
+            <p> Currently Developing a service that sends surveys to thousands of emails. Used Google OAuth with Passport.js for user authentication.
+              My website is able to accept credit card payements using store credits with SendGrid.
+
+                <img src={require('../projectPictures/emailyPP.png')} className="img-responsive " alt = "projectPictures"/>
+              <br/>
+                <a target="_blank"  href="https://github.com/TheTurok/serverReact"> Emaily Github</a>
+
+            </p>
+
+
 
 
       </div>
