@@ -5,9 +5,8 @@ export default class Projects extends Component {
   render() {
     return (
       <div className = "col-sm-12 col-md-8 col-md-offset-2 content">
-        In Progress!!
         <br/>
-        <div className = "projectHeader"> <h2 style={{float: 'left'}}>1. Emaily </h2> <h5 style={{float: 'right'}}>  December 2019 - Current </h5></div>
+        <div className = "projectHeader"> <h2 style={{float: 'left'}}>Emaily </h2> <h5 style={{float: 'right'}}>  December 2019 - Current </h5></div>
           <br/>
           <hr/>
           <p> Currently Developing a service that sends surveys to thousands of emails. Used Google OAuth with Passport.js for user authentication.
@@ -19,7 +18,7 @@ export default class Projects extends Component {
 
           </p>
 
-        <div className = "projectHeader"> <h2 style={{float: 'left'}}>2. Speed </h2> <h5 style={{float: 'right'}}>  June 2018 </h5></div>
+        <div className = "projectHeader"> <h2 style={{float: 'left'}}>Speed </h2> <h5 style={{float: 'right'}}>  June 2018 </h5></div>
           <br/>
           <hr/>
           <p> A card game simulation of speed built on Unity. Player versus Player.
@@ -29,12 +28,13 @@ export default class Projects extends Component {
             <a target="_blank"  href="https://github.com/TheTurok/SpeedTech"> Speed Github</a>
           </p>
 
-          <div className = "projectHeader"> <h2 style={{float: 'left'}}>3. Weather Maps </h2> <h5 style={{float: 'right'}}>  Setember 2018 </h5></div>
+          <div className = "projectHeader"> <h2 style={{float: 'left'}}>Weather Maps </h2> <h5 style={{float: 'right'}}>  Setember 2018 </h5></div>
             <br/>
             <hr/>
           <p>
-            Visualizations for graphs and maps comparing different cities weather/climate/pressure.
+            Built a website to compare multiple cities’ weather, climate, and pressure simultaneously with SparkLine graphs
             Used OpenWeatherMap API to retreive weather data and Google Maps API for the citie's maps.
+            •	Utilized action creators to fetch data from Google/OpenWeatherMap API while using middleware, redux-promise, to wait for ajax requests when retrieving resources from the websites.
 
             <img src={require('../projectPictures/weathermap.png')} className="img-responsive" alt = "Combo"/>
           <br/>
@@ -42,7 +42,7 @@ export default class Projects extends Component {
 
           </p>
 
-          <div className = "projectHeader"> <h2 style={{float: 'left'}}>4. GarPr </h2> <h5 style={{float: 'right'}}>  Setember 2014 </h5></div>
+          <div className = "projectHeader"> <h2 style={{float: 'left'}}>GarPr </h2> <h5 style={{float: 'right'}}>  Setember 2014 </h5></div>
             <br/>
             <hr/>
           <br/>
