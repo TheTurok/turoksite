@@ -12,7 +12,6 @@ export default class Projects extends Component {
           <p>
             Built a website to compare multiple cities’ weather, climate, and pressure simultaneously with SparkLine graphs
             Used OpenWeatherMap API to retreive weather data and Google Maps API for the citie's maps.
-            •	Utilized action creators to fetch data from Google/OpenWeatherMap API while using middleware, redux-promise, to wait for ajax requests when retrieving resources from the websites.
 
             <img src={require('../projectPictures/weatherPP.png')} className="img-responsive" alt = "projectPictures"/>
           <br/>
@@ -30,7 +29,8 @@ export default class Projects extends Component {
             Made with Android Application to aesthectically display results on a mobile phone.
           <br/>
 
-            <img src={require('../projectPictures/garpr1.png')} className="img-responsive" style ={{padding: '5px'}} alt = ""/>
+
+            <img src={require('../projectPictures/garprgif.gif')} className="img-responsive" style ={{padding: '5px', width: '43%', height: '43%'}} alt = ""/>
             <img src={require('../projectPictures/garpr2.png')} className="img-responsive" alt = ""/>
 
           <br/>
