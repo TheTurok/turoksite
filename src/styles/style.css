@@ -23,6 +23,12 @@ img[alt="Combo"]{
   background-color:#FFFFFF;
 }
 
+img[alt="arrowBtn"]{
+  width: 7%;
+  height: 7%;
+  cursor: pointer;
+}
+
 img[alt="projectPictures"]{
   margin: 10px;
   width: 100%;

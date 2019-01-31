@@ -33,9 +33,9 @@ ReactDOM.render(
       <div>
         <Header />
           <Switch>
-            <Route path ="/melee/falco" component={MeleeFalco} />
-            <Route path ="/melee/falcon" component={MeleeFalcon} />
-            <Route path ="/melee/marth" component={MeleeMarth} />
+            <Route path ="/melee/falco/:id" component={MeleeFalco} />
+            <Route path ="/melee/falcon/:id" component={MeleeFalcon} />
+            <Route path ="/melee/marth/:id" component={MeleeMarth} />
             <Route path ="/melee" component={Melee} />
 
             <Route path ="/projects" component={Projects} />

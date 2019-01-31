@@ -6,11 +6,11 @@ import '../styles/style.css';
 export default class Header extends Component {
   render() {
     return (
-      <div id = "head" class = "container center">
+      <div id = "head" className = "container center">
         <img id = "pic" alt  = "profile" className = "img-circle img-responsive" src={require('../files/profile2.jpg')} />
         <h1> Timothy Choi </h1>
-        <div class = "row-fluid">
-          <div class = "links"  >
+        <div className = "row-fluid">
+          <div className = "links"  >
             <Link to = "/" className = "col-md-3"> Home </Link>
             <Link to = "/projects" className = "col-md-2"> Projects </Link>
             <Link to = "/art" className = "col-md-2"> Art </Link>

@@ -4,7 +4,7 @@ export default class Home extends Component {
   render() {
     return (
       <div className = "col-sm-12 col-md-8 col-md-offset-2 content">
-        <p>
+        <div>
           I graduated from the University of California, San Diego in 2017 with a B.S. in Computer Science.
           Currently, my focus in software engineering is web development because I am able to showcase my ability to create content that works smoothly and efficiently for up-and-coming entrepreneurs while simultaneously helping them grow their businesses.
           I build websites primarily using React because it is simple, yet it provides a degree of freedom that allows me to express my creative ability while meeting each client's demands.
@@ -26,10 +26,10 @@ export default class Home extends Component {
 
           <br/>
 
-          <div class = "res">Github Contributions</div>
+          <div className = "res">Github Contributions</div>
           <img src="http://ghchart.rshah.org/409ba5/theturok" alt="2016rshah's Github chart" />
 
-        </p>
+        </div>
       </div>
     );
   }

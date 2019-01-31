@@ -6,13 +6,13 @@ export default class Melee extends Component {
   render() {
     return (
       <div className = "content text-center">
-        <Link to = "/melee/marth" >
+        <Link to = "/melee/marth/1" >
           <img src={require('../melee/marth_icon.png')} alt = "Icons"/>
         </Link>
-        <Link to = "/melee/falcon" >
+        <Link to = "/melee/falcon/1" >
           <img src={require('../melee/falcon_icon.png')} alt = "Icons"/>
         </Link>
-        <Link to = "/melee/falco" >
+        <Link to = "/melee/falco/1" >
           <img src={require('../melee/falco_icon.png')} alt = "Icons"/>
         </Link>
 

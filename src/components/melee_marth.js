@@ -1,17 +1,45 @@
 import React, { Component } from 'react';
-
+import {browserHistory} from 'react-router';
+import {Link} from 'react-router-dom';
+import aLeft from '../melee/aLeft.png';
+import aRight from '../melee/aRight.png';
 
 export default class MeleeMarth extends Component {
+  onNextButton(){
+    this.props.match.params.id++;
+
+    if(this.props.match.params.id === 9)
+      this.props.match.params.id = 1;
+
+    this.props.history.push(`/melee/marth/${this.props.match.params.id}`);
+  }
+
+  onPrevButton(){
+    this.props.match.params.id--;
+
+    if(this.props.match.params.id === 0)
+      this.props.match.params.id = 8;
+
+    this.props.history.push(`/melee/marth/${this.props.match.params.id}`);
+  }
+
   render() {
+
+
     return (
       <div className = "content text-center">
-        <img src={require('../melee/m1.gif')} className="img-responsive" alt = "Combo"/>
-        <img src={require('../melee/m2.gif')} className="img-responsive" alt = "Combo"/>
-        <img src={require('../melee/m3.gif')} className="img-responsive" alt = "Combo"/>
-        <img src={require('../melee/m4.gif')} className="img-responsive" alt = "Combo"/>
-        <img src={require('../melee/m5.gif')} className="img-responsive" alt = "Combo"/>
-        <img src={require('../melee/m6.gif')} className="img-responsive" alt = "Combo"/>
-        <img src={require('../melee/m7.gif')} className="img-responsive" alt = "Combo"/>
+        <img src= {aLeft}
+          onClick={this.onPrevButton.bind(this)}
+          className="img-responsive" alt = "arrowBtn"/>
+
+
+        <img src={require(`../melee/m${this.props.match.params.id}.gif`)}
+          className="img-responsive" alt = "Combo"/>
+
+
+        <img src={aRight}
+          onClick={this.onNextButton.bind(this)}
+          className="img-responsive" alt = "arrowBtn"/>
       </div>
 
     );
