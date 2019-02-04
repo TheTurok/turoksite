@@ -22,3 +22,9 @@
   width: 30vh;
   height: 30vh;
 }
+
+#meleeD{
+  width: 75vh;
+  text-align: center;
+  margin:auto;
+}
