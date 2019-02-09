@@ -8,7 +8,6 @@ import promise from 'redux-promise';
 
 import Header from './components/header';
 import Home from './components/home';
-import Contact from './components/contact';
 import Resume from './components/resume';
 import Art from './components/art';
 import Melee from './components/melee';
@@ -39,7 +38,6 @@ ReactDOM.render(
             <Route path ="/melee" component={Melee} />
 
             <Route path ="/projects" component={Projects} />
-            <Route path ="/contact" component={Contact} />
             <Route path ="/resume" component={Resume} />
             <Route path ="/art" component={Art} />
             <Route path ="/" component={Home} />

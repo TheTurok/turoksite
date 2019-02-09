@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import {browserHistory} from 'react-router';
-import {Link} from 'react-router-dom';
 import aLeft from '../melee/aLeft.png';
 import aRight from '../melee/aRight.png';
 
