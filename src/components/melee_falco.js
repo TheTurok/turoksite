@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import aLeft from '../melee/aLeft.png';
 import aRight from '../melee/aRight.png';
+import listReactFiles from 'list-react-files';
 
+const FILE_COUNT = 3;
 
 export default class MeleeFalco extends Component {
   onNextButton(){
     this.props.match.params.id++;
 
-    if(this.props.match.params.id === 3)
+    if(this.props.match.params.id === FILE_COUNT+1)
       this.props.match.params.id = 1;
 
     this.props.history.push(`/melee/falco/${this.props.match.params.id}`);
@@ -17,7 +19,7 @@ export default class MeleeFalco extends Component {
     this.props.match.params.id--;
 
     if(this.props.match.params.id === 0)
-      this.props.match.params.id = 2;
+      this.props.match.params.id = FILE_COUNT;
 
     this.props.history.push(`/melee/falco/${this.props.match.params.id}`);
   }

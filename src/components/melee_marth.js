@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import aLeft from '../melee/aLeft.png';
 import aRight from '../melee/aRight.png';
 
+const FILE_COUNT = 8;
+
 export default class MeleeMarth extends Component {
   onNextButton(){
     this.props.match.params.id++;
 
-    if(this.props.match.params.id === 9)
+    if(this.props.match.params.id === FILE_COUNT+1)
       this.props.match.params.id = 1;
 
     this.props.history.push(`/melee/marth/${this.props.match.params.id}`);
@@ -16,7 +18,7 @@ export default class MeleeMarth extends Component {
     this.props.match.params.id--;
 
     if(this.props.match.params.id === 0)
-      this.props.match.params.id = 8;
+      this.props.match.params.id = FILE_COUNT;
 
     this.props.history.push(`/melee/marth/${this.props.match.params.id}`);
   }
