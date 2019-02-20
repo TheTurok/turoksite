@@ -7,7 +7,7 @@ export default class MeleeFalco extends Component {
   onNextButton(){
     this.props.match.params.id++;
 
-    if(this.props.match.params.id === 2)
+    if(this.props.match.params.id === 3)
       this.props.match.params.id = 1;
 
     this.props.history.push(`/melee/falco/${this.props.match.params.id}`);
@@ -17,7 +17,7 @@ export default class MeleeFalco extends Component {
     this.props.match.params.id--;
 
     if(this.props.match.params.id === 0)
-      this.props.match.params.id = 1;
+      this.props.match.params.id = 2;
 
     this.props.history.push(`/melee/falco/${this.props.match.params.id}`);
   }
