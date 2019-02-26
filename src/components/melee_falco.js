@@ -3,7 +3,7 @@ import aLeft from '../melee/aLeft.png';
 import aRight from '../melee/aRight.png';
 import listReactFiles from 'list-react-files';
 
-const FILE_COUNT = 3;
+const FILE_COUNT = 7;
 
 export default class MeleeFalco extends Component {
   onNextButton(){
