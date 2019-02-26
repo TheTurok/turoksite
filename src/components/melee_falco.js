@@ -12,7 +12,7 @@ export default class MeleeFalco extends Component {
     if(this.props.match.params.id === FILE_COUNT+1)
       this.props.match.params.id = 1;
 
-    this.props.history.push(`/melee/falco/${this.props.match.params.id}`);
+    this.context.history.push(`/melee/falco/${this.props.match.params.id}`);
   }
 
   onPrevButton(){
@@ -21,7 +21,7 @@ export default class MeleeFalco extends Component {
     if(this.props.match.params.id === 0)
       this.props.match.params.id = FILE_COUNT;
 
-    this.props.history.push(`/melee/falco/${this.props.match.params.id}`);
+    this.context.history.push(`/melee/falco/${this.props.match.params.id}`);
   }
 
   render() {
