@@ -6,7 +6,7 @@ export default class Home extends Component {
       <div className = "col-sm-12 col-md-8 col-md-offset-2 content">
         <div>
           I graduated from the University of California, San Diego in 2017 with a B.S. in Computer Science.
-          Currently, my focus in software engineering is web development because I am able to showcase my ability to create content that works smoothly and efficiently for up-and-coming entrepreneurs while simultaneously helping them grow their businesses.
+          Currently, my focus in software engineering is in web development because I am able to showcase my ability to create content that works smoothly and efficiently for up-and-coming entrepreneurs while simultaneously helping them grow their businesses.
           I build websites primarily using React because it is simple, yet it provides a degree of freedom that allows me to express my creative ability while meeting each client's demands.
 
           <br/><br/>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import aLeft from '../melee/aLeft.png';
 import aRight from '../melee/aRight.png';
 
-const FILE_COUNT = 7;
+const FILE_COUNT = 6;
 
 export default class MeleeFalco extends Component {
   onNextButton(){
