@@ -5,7 +5,7 @@ import aRight from '../melee/aRight.png';
 const FILE_COUNT = 3
 
 export default class MeleeFalcon extends Component {
-  onNextButton(){
+  onNextButton = () =>{
     this.props.match.params.id++;
 
     if(this.props.match.params.id === FILE_COUNT + 1)
@@ -14,7 +14,7 @@ export default class MeleeFalcon extends Component {
     this.props.history.push(`/melee/falcon/${this.props.match.params.id}`);
   }
 
-  onPrevButton(){
+  onPrevButton = () => {
     this.props.match.params.id--;
 
     if(this.props.match.params.id === 0)
@@ -24,8 +24,6 @@ export default class MeleeFalcon extends Component {
   }
 
   render() {
-
-
     return (
       <div className = "content text-center">
         <img src= {aLeft}

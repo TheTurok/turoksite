@@ -5,7 +5,7 @@ import aRight from '../melee/aRight.png';
 const FILE_COUNT = 8;
 
 export default class MeleeMarth extends Component {
-  onNextButton(){
+  onNextButton = () =>{
     this.props.match.params.id++;
 
     if(this.props.match.params.id === FILE_COUNT+1)
@@ -14,7 +14,7 @@ export default class MeleeMarth extends Component {
     this.props.history.push(`/melee/marth/${this.props.match.params.id}`);
   }
 
-  onPrevButton(){
+  onPrevButton = () => {
     this.props.match.params.id--;
 
     if(this.props.match.params.id === 0)
@@ -29,7 +29,7 @@ export default class MeleeMarth extends Component {
     return (
       <div className = "content text-center">
         <img src= {aLeft}
-          onClick={this.onPrevButton.bind(this)}
+          onClick={this.onPrevButton}
           className="img-responsive" alt = "arrowBtn"/>
 
 
@@ -38,7 +38,7 @@ export default class MeleeMarth extends Component {
 
 
         <img src={aRight}
-          onClick={this.onNextButton.bind(this)}
+          onClick={this.onNextButton}
           className="img-responsive" alt = "arrowBtn"/>
       </div>
 
