@@ -2,6 +2,10 @@ html, body, *{
   background-color: #bfecff;
 }
 
+#pic{
+  margin-bottom: 15px;
+}
+
 .content{
   min-height: calc(100vh - 30vh - 236px);
 }
@@ -14,19 +18,33 @@ html, body, *{
   margin-bottom: 10px;
 }
 
+.mlink:hover{
+  background-color: white;
+  border-radius: 25px;
+}
+
+
+img[alt="Icons"]:hover{
+  background-color: gold;
+  border-radius: 10px;
+}
+
 img[alt="Combo"]{
-  margin: 10px;
-  width: 75vh;
-  height: 50vh;
+  height: 64vh;
   padding:3px;
   border:1px solid #000000;
   background-color:#FFFFFF;
 }
 
 img[alt="arrowBtn"]{
+  margin-top: 28vh;
   width: 7%;
   height: 7%;
   cursor: pointer;
+}
+img[alt="arrowBtn"]:hover{
+  background-color: white;
+  border-radius: 10px;
 }
 
 img[alt="projectPictures"]{
@@ -45,6 +63,10 @@ img[alt="Art"]{
   padding:3px;
   border:1px solid #000000;
   background-color:#FFFFFF;
+}
+
+img[alt="Art"]:hover{
+
 }
 
 #foot a{

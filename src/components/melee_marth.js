@@ -27,19 +27,20 @@ export default class MeleeMarth extends Component {
 
 
     return (
-      <div className = "content text-center">
+      <div className = "content text-center container-fluid row">
+
         <img src= {aLeft}
           onClick={this.onPrevButton}
-          className="img-responsive" alt = "arrowBtn"/>
+          className="col-md-1 col-md-offset-1 img-responsive" alt = "arrowBtn"/>
 
 
         <img src={require(`../melee/m${this.props.match.params.id}.gif`)}
-          className="img-responsive" alt = "Combo"/>
+          className="col-md-8 img-responsive" alt = "Combo"/>
 
 
         <img src={aRight}
           onClick={this.onNextButton}
-          className="img-responsive" alt = "arrowBtn"/>
+          className="col-md-1 img-responsive" alt = "arrowBtn"/>
       </div>
 
     );

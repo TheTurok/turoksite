@@ -4,6 +4,8 @@ export default class Home extends Component {
   render() {
     return (
       <div className = "col-sm-12 col-md-8 col-md-offset-2 content">
+        <img id = "pic" alt  = "profile" className = "img-circle img-responsive" src={require('../files/profile2.jpg')} />
+
         <div>
           I graduated from the University of California, San Diego in 2017 with a B.S. in Computer Science.
           Currently, my focus in software engineering is in web development because I am able to showcase my ability to create content that works smoothly and efficiently for up-and-coming entrepreneurs while simultaneously helping them grow their businesses.
