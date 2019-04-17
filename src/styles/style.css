@@ -26,12 +26,14 @@ html, body, *{
 
 .mlink{
   color : green;
+  text-align: center;
 }
 
 
 #name{
   text-shadow: 3px 3px 3px #4d94ff;
   color: #003380;
+  text-align: center;
 }
 
 img[alt="Icons"]:hover{
@@ -44,6 +46,7 @@ img[alt="Combo"]{
   padding:3px;
   border:1px solid #000000;
   background-color:#FFFFFF;
+  text-align: center;
 }
 
 img[alt="arrowBtn"]{
@@ -51,6 +54,7 @@ img[alt="arrowBtn"]{
   width: 7%;
   height: 7%;
   cursor: pointer;
+  text-align: center;
 }
 img[alt="arrowBtn"]:hover{
   background-color: white;

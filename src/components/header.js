@@ -7,7 +7,7 @@ export default class Header extends Component {
   render() {
     return (
       <div id = "head" className = "container-fluid center">
-        <h1 id = "name"> Timothy Choi </h1>
+
       <div className = "row-fluid">
           <div className = "links row"  >
             <Link to = "/" className = "mlink col-md"> Home </Link>
