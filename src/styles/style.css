@@ -40,6 +40,7 @@ html, body, *{
 .mlink{
   color : green;
   text-align: center;
+  width: 20%
 }
 
 
@@ -52,6 +53,8 @@ html, body, *{
 img[alt="Icons"]:hover{
   background-color: gold;
   border-radius: 10px;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
 }
 
 img[alt="Combo"]{
@@ -72,6 +75,8 @@ img[alt="arrowBtn"]{
 img[alt="arrowBtn"]:hover{
   background-color: white;
   border-radius: 10px;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
 }
 
 img[alt="projectPictures"]{
@@ -84,8 +89,7 @@ img[alt="projectPictures"]{
 }
 
 img[alt="Art"]{
-  max-width: 100vh;
-  max-height: 100vh;
+  max-width: 90%;
   margin: 10px;
   padding:3px;
   border:1px solid #000000;
@@ -132,6 +136,8 @@ form label{
 
 .links a:hover{
   text-decoration: none;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
 }
 
 .links{
@@ -144,6 +150,9 @@ form label{
 .fa:hover {
     opacity: 0.7;
     text-decoration: none;
+    text-decoration: none;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
 }
 
 .fa-envelope {
