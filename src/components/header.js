@@ -10,11 +10,11 @@ export default class Header extends Component {
 
       <div className = "row-fluid">
           <div className = "links row"  >
-            <Link to = "/" className = "mlink col-md"> Home </Link>
-            <Link to = "/projects" className = "mlink col"> Projects </Link>
-          <Link to = "/art" className = "mlink col-md"> Art </Link>
-          <Link to = "/melee" className = "mlink col-md"> Melee </Link>
-            <Link to = "/resume" className = "mlink col-md"> Resume </Link>
+            <Link to = "/" className = "mlink col-md-3"> Home </Link>
+            <Link to = "/projects" className = "mlink col-md-2"> Projects </Link>
+          <Link to = "/art" className = "mlink col-md-2"> Art </Link>
+          <Link to = "/melee" className = "mlink col-md-2"> Melee </Link>
+            <Link to = "/resume" className = "mlink col-md-3"> Resume </Link>
           </div>
         </div>
       </div>

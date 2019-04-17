@@ -30,10 +30,13 @@ export default class Home extends Component {
 
           <br/>
 
-          <div className = "res">Github Contributions</div>
-          <img id = "githubgraph" src="http://ghchart.rshah.org/409ba5/theturok" alt="2016rshah's Github chart" />
 
         </div>
+        
+        <div className = "res">Github Contributions</div>
+        <img id = "githubgraph" src="http://ghchart.rshah.org/409ba5/theturok" alt="2016rshah's Github chart" />
+
+
       </div>
     );
   }

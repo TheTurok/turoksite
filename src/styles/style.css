@@ -28,7 +28,8 @@ html, body, *{
   border-radius: 12px;
   padding: 2px;
   text-align: center;
-  width: 50vw;
+  width: 100%;
+  vertical-align: middle
 }
 
 .mlink:hover{
@@ -136,6 +137,7 @@ form label{
 .links{
   background-color: #99c2ff;
   border-radius: 15px;
+  width: 100%
 }
 
 
