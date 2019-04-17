@@ -4,6 +4,9 @@ html, body, *{
 
 #pic{
   margin-bottom: 15px;
+  border-radius: 100%;
+  border-width: 200px;
+  border-color: white;
 }
 
 
@@ -15,8 +18,17 @@ html, body, *{
   text-align: center;
 }
 
+
 #foot{
   margin-bottom: 10px;
+}
+
+#githubgraph{
+  background-color: white;
+  border-radius: 12px;
+  padding: 2px;
+  text-align: center;
+  width: 50vw;
 }
 
 .mlink:hover{
