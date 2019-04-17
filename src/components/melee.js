@@ -4,10 +4,10 @@ import {Link} from 'react-router-dom';
 export default class Melee extends Component {
   render() {
     return (
-      <div className = "content text-center">
+      <div className = "col-sm-12 col-md-8 col-md-offset-2 content text-center">
         <br/>
 
-        <h4 id = "meleeD">
+        <h4 id = "meleeD" >
           I am Turok. For Super Smash Bros. Melee, I used to be ranked top 20 in San Diego California.
           I have taken sets off Rock Leeland and Captain Faceroll.
           Enjoy (:
