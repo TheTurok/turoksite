@@ -5,6 +5,21 @@ export default class Projects extends Component {
     return (
       <div className = "col-sm-12 col-md-8 col-md-offset-2 content">
         <br/>
+      <div className = "projectHeader"> <h2 style={{float: 'left'}}>Emaily </h2> <h5 style={{float: 'right'}}>  December 2018 - June 2019 </h5></div>
+            <br/>
+            <hr/>
+          <p> A service that sends surveys to thousands of emails and collecting its answers.
+            Used Google OAuth with Passport.js for user authentication.
+              My website is able to accept credit card payments using store credits and send emails through SendGrid.
+
+                <img src={require('../projectPictures/emailyPP.png')} className="img-responsive " alt = "projectPictures"/>
+                <img src={require('../projectPictures/emaily2.png')} className="img-responsive " alt = "projectPictures"/>
+                <img src={require('../projectPictures/emaily3.png')} className="img-responsive " alt = "projectPictures"/>
+              <br/>
+              <a target="_blank"  href="https://github.com/TheTurok/serverReact"> Github</a>
+              <a target="_blank"  href="https://warm-beach-63879.herokuapp.com/surveys">  Heroku</a>
+
+          </p>
           <div className = "projectHeader"> <h2 style={{float: 'left'}}>Weather Maps </h2> <h5 style={{float: 'right'}}>  Setember 2018 </h5></div>
             <br/>
             <hr/>
@@ -46,21 +61,6 @@ export default class Projects extends Component {
             <br/>
               <a target="_blank"  href="https://github.com/TheTurok/SpeedTech"> Speed Github</a>
             </p>
-
-          <div className = "projectHeader"> <h2 style={{float: 'left'}}>Emaily </h2> <h5 style={{float: 'right'}}>  December 2019 - Current </h5></div>
-            <br/>
-            <hr/>
-            <p> Currently Developing a service that sends surveys to thousands of emails. Used Google OAuth with Passport.js for user authentication.
-              My website is able to accept credit card payements using store credits with SendGrid.
-
-                <img src={require('../projectPictures/emailyPP.png')} className="img-responsive " alt = "projectPictures"/>
-              <br/>
-                <a target="_blank"  href="https://github.com/TheTurok/serverReact"> Emaily Github</a>
-
-            </p>
-
-
-
 
       </div>
 
