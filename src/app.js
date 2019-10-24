@@ -11,6 +11,7 @@ import Projects from './components/projects';
 import MeleeMarth from './components/melee_marth';
 import MeleeFalcon from './components/melee_falcon';
 import MeleeFalco from './components/melee_falco';
+import MeleeCharacters from './components/melee_characters';
 
 import Footer from './components/footer';
 
@@ -26,9 +27,10 @@ export default class App extends Component {
       <div>
         <Header />
           <Switch>
-            <Route path ="/melee/falco/:id" component={MeleeFalco} />
-            <Route path ="/melee/falcon/:id" component={MeleeFalcon} />
-            <Route path ="/melee/marth/:id" component={MeleeMarth} />
+            <Route path ="/melee/:character/:id" component={MeleeCharacters} />
+            //<Route path ="/melee/falco/:id" component={MeleeFalco} />
+            //<Route path ="/melee/falcon/:id" component={MeleeFalcon} />
+            //<Route path ="/melee/marth/:id" component={MeleeMarth} />
             <Route path ="/melee" component={Melee} />
 
             <Route path ="/projects" component={Projects} />
