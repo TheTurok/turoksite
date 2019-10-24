@@ -1,30 +1,14 @@
 import React, { Component } from 'react';
 import aLeft from '../melee/aLeft.png';
 import aRight from '../melee/aRight.png';
+import {Link} from 'react-router-dom';
 
-let file_count = 0;
+let file_count;
+let character;
 
 export default class MeleeCharacters extends Component {
-  onNextButton = () =>{
-    this.props.match.params.id++;
-
-    if(this.props.match.params.id === file_count+1)
-      this.props.match.params.id = 1;
-
-    this.props.history.push(`/melee/${this.props.match.params.character.toString()}/${this.props.match.params.id.toString()}`);
-  }
-
-  onPrevButton = () =>{
-    this.props.match.params.id--;
-
-    if(this.props.match.params.id === 0)
-      this.props.match.params.id = file_count;
-
-    this.props.history.push(`/melee/${this.props.match.params.character.toString()}/${this.props.match.params.id.toString()}`);
-  }
-
-  render() {
-    let character = this.props.match.params.character.toString()
+  componentWillMount() {
+    character = this.props.match.params.character;
     switch(character){
       case 'falco':
         file_count = 6;
@@ -32,24 +16,31 @@ export default class MeleeCharacters extends Component {
       case 'falcon':
         file_count = 3;
         break;
-      default:
+      case 'marth':
         file_count = 8;
+      default:
+        file_count = 1;
     }
+    if(this.props.match.params.id == file_count+1)
+      this.props.match.params.id = 1;
+    if(this.props.match.params.id == 0)
+      this.props.match.params.id = file_count;
+  }
 
+  render() {
     return (
       <div className = "content text-center container-fluid row">
-        <img src= {aLeft}
-          onClick={this.onPrevButton}
-          className="col-md-1 col-md-offset-1 img-responsive" alt = "arrowBtn"/>
 
+        <Link to = {`/melee/${character}/${Number(this.props.match.params.id)-1}`} onClick={() => this.forceUpdate()} className="col-md-1 col-md-offset-1" >
+          <img src= {aLeft} className="img-responsive" alt = "arrowBtn"/>
+        </Link>
 
-        <img src={require(`../melee/${character}${this.props.match.params.id.toString()}.gif`)}
+        <img src={require(`../melee/${character}${this.props.match.params.id}.gif`)}
           className="col-md-8 img-responsive" alt = "Combo"/>
 
-
-        <img src={aRight}
-          onClick={this.onNextButton}
-          className="col-md-1  img-responsive" alt = "arrowBtn"/>
+        <Link to = {`/melee/${character}/${Number(this.props.match.params.id)+1}`} onClick={() => this.forceUpdate()} className="col-md-1" >
+          <img src= {aRight} className="img-responsive" alt = "arrowBtn"/>
+        </Link>
       </div>
 
     );

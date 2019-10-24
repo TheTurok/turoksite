@@ -12,6 +12,7 @@ export default class MeleeFalco extends Component {
       this.props.match.params.id = 1;
 
     this.props.history.push(`/melee/falco/${this.props.match.params.id.toString()}`);
+    this.forceUpdate()
   }
 
   onPrevButton = () =>{
@@ -21,6 +22,7 @@ export default class MeleeFalco extends Component {
       this.props.match.params.id = FILE_COUNT;
 
     this.props.history.push(`/melee/falco/${this.props.match.params.id.toString()}`);
+    this.forceUpdate()
   }
 
   render() {
@@ -33,7 +35,7 @@ export default class MeleeFalco extends Component {
           className="col-md-1 col-md-offset-1 img-responsive" alt = "arrowBtn"/>
 
 
-        <img src={require(`../melee/b${this.props.match.params.id}.gif`)}
+        <img src={require(`../melee/falco${this.props.match.params.id}.gif`)}
           className="col-md-8 img-responsive" alt = "Combo"/>
 
 
