@@ -12,7 +12,7 @@ export default class MeleeFalco extends Component {
       this.props.match.params.id = 1;
 
     this.props.history.push(`/melee/falco/${this.props.match.params.id.toString()}`);
-    this.forceUpdate()
+    this.forceUpdate();
   }
 
   onPrevButton = () =>{
@@ -22,7 +22,7 @@ export default class MeleeFalco extends Component {
       this.props.match.params.id = FILE_COUNT;
 
     this.props.history.push(`/melee/falco/${this.props.match.params.id.toString()}`);
-    this.forceUpdate()
+    this.forceUpdate();
   }
 
   render() {
