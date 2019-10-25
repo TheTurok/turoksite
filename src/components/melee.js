@@ -11,6 +11,8 @@ export default class Melee extends Component {
           I am Turok. For Super Smash Bros. Melee, I used to be ranked top 20 in San Diego California.
           I have taken sets off Rock Leeland and Captain Faceroll.
           Enjoy (:
+
+          Please Wait a little moment for the gifs to load !
         </h4>
 
         <br/><br/>
