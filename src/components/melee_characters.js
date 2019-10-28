@@ -52,8 +52,6 @@ export default class MeleeCharacters extends Component {
     if(num < 0)
       num = file_count-1;
 
-    console.log(num);
-
     return (
       <div className = "content text-center container-fluid row">
 

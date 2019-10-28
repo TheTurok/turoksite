@@ -5,19 +5,13 @@ import {Route, Switch} from 'react-router-dom';
 import Header from './components/header';
 import Home from './components/home';
 import Resume from './components/resume';
-import Art from './components/art';
+import Art from './components/artPage';
 import Melee from './components/melee';
 import Projects from './components/projects';
-import MeleeMarth from './components/melee_marth';
-import MeleeFalcon from './components/melee_falcon';
-import MeleeFalco from './components/melee_falco';
 import MeleeCharacters from './components/melee_characters';
 
 import Footer from './components/footer';
-/*
-<Route path ="/melee/falco/:id" component={MeleeFalco} />
-<Route path ="/melee/falcon/:id" component={MeleeFalcon} />
-<Route path ="/melee/marth/:id" component={MeleeMarth} /> */
+
 
 import './styles/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
