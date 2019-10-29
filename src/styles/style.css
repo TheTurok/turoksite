@@ -9,7 +9,6 @@ html, body, *{
   border-color: white;
 }
 
-
 .content{
   min-height: calc(100vh - 30vh - 236px);
 }
@@ -66,8 +65,8 @@ img[alt="Combo"]{
 }
 
 img[alt="arrowBtn"]{
-  margin-top: 28vh;
-  width: 7%;
+  margin-top: 0vh;
+  width: 10%;
   height: 7%;
   cursor: pointer;
   text-align: center;

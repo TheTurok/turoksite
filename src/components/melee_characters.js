@@ -5,27 +5,6 @@ import {Link} from 'react-router-dom';
 
 let file_count;
 
-/*
-console.log(character);
-console.log(id);
-switch(character){
-  case 'falco':
-    file_count = 6;
-    break;
-  case 'falcon':
-    file_count = 3;
-    break;
-  case 'marth':
-    file_count = 8;
-  default:
-    file_count = 1;
-}
-if(id > file_count)
-  id = 1;
-if(id == 0)
-  id = file_count;
-*/
-
 export default class MeleeCharacters extends Component {
   render() {
     let {
