@@ -7,7 +7,7 @@ const Project = props => {
       <br/>
       <hr/>
       <p>
-      {props.children}
+        {props.children}
       </p>
     </div>
   );

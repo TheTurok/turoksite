@@ -4,10 +4,8 @@ export default class Home extends Component {
   render() {
     return (
       <div className = "col-sm-12 col-md-8 col-md-offset-2 content">
-
-
         <img id = "pic" alt  = "profile" className = "img-circle img-responsive" src={require('../files/profile2.jpg')} />
-<h1 id = "name"> Timothy Choi </h1>
+        <h1 id = "name"> Timothy Choi </h1>
         <div>
           I graduated from the University of California, San Diego in 2017 with a B.S. in Computer Science.
           Currently, my focus in software engineering is in web development because I am able to showcase my ability to create content that works smoothly and efficiently for up-and-coming entrepreneurs while simultaneously helping them grow their businesses.
@@ -23,16 +21,16 @@ export default class Home extends Component {
           <br/><br/>
 
           <div id = "hobby" >
-          <h5>Hobbies</h5>
-          Competititve Gaming: Super Smash Bros. Melee <br/>
-          Karaoke, Visual Art, Dancing, Poker
+            <h5>Hobbies</h5>
+            Competititve Gaming: Super Smash Bros. Melee <br/>
+            Karaoke, Visual Art, Dancing, Poker
           </div>
 
           <br/>
 
 
         </div>
-        
+
         <div className = "res">Github Contributions</div>
         <img id = "githubgraph" src="http://ghchart.rshah.org/409ba5/theturok" alt="2016rshah's Github chart" />
 
