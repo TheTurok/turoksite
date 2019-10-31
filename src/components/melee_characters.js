@@ -41,7 +41,7 @@ export default class MeleeCharacters extends Component {
       num = 0;
     }
     if (num < 0){
-      this.setState({id:this.state.file_count -1});
+      this.setState({id:this.state.file_count - 1});
       num = this.state.file_count - 1;
     }
 
@@ -62,7 +62,7 @@ export default class MeleeCharacters extends Component {
 
         {this.retrieveGIF(this.state.character, this.state.id)}
 
-        <Link to = {`/melee/${this.state.character}/${this.state.+1}`} onClick={() => this.setState({id:this.state.id + 1})} className="col-md-1" >
+        <Link to = {`/melee/${this.state.character}/${this.state.id+1}`} onClick={() => this.setState({id:this.state.id + 1})} className="col-md-1" >
           <img src= {aRight} className="img-responsive" alt = "arrowBtn"/>
         </Link>
       </div>
