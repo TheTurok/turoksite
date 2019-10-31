@@ -46,7 +46,7 @@ export default class MeleeCharacters extends Component {
     }
 
     return(
-      <img src={require(`../melee/${this.state.character}${this.state.id}.gif`)}
+      <img src={require(`../melee/${c}${num}.gif`)}
         className="col-md-8 img-responsive" alt = "Combo"/>
     );
   }
@@ -62,7 +62,7 @@ export default class MeleeCharacters extends Component {
 
         {this.retrieveGIF(this.state.character, this.state.id)}
 
-        <Link to = {`/melee/${this.state.character}/${this.state.id+1}`} onClick={() => this.setState({id:this.state.id + 1})} className="col-md-1" >
+        <Link to = {`/melee/${this.state.character}/${this.state.+1}`} onClick={() => this.setState({id:this.state.id + 1})} className="col-md-1" >
           <img src= {aRight} className="img-responsive" alt = "arrowBtn"/>
         </Link>
       </div>
