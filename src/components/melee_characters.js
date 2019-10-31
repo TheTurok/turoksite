@@ -56,13 +56,13 @@ export default class MeleeCharacters extends Component {
     return (
       <div className = "content text-center container-fluid row">
 
-        <Link to = {`/melee/${this.state.character}/${this.state.num-1}`} onClick={() => this.setState({id:this.state.id - 1})} className="col-md-1 col-md-offset-1" >
+        <Link to = {`/melee/${this.state.character}/${this.state.id-1}`} onClick={() => this.setState({id:this.state.id - 1})} className="col-md-1 col-md-offset-1" >
           <img src= {aLeft} className="img-responsive" alt = "arrowBtn"/>
         </Link>
 
         {this.retrieveGIF(this.state.character, this.state.id)}
 
-        <Link to = {`/melee/${this.state.character}/${this.state.num+1}`} onClick={() => this.setState({id:this.state.id + 1})} className="col-md-1" >
+        <Link to = {`/melee/${this.state.character}/${this.state.id+1}`} onClick={() => this.setState({id:this.state.id + 1})} className="col-md-1" >
           <img src= {aRight} className="img-responsive" alt = "arrowBtn"/>
         </Link>
       </div>
