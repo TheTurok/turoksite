@@ -17,13 +17,13 @@ export default class Melee extends Component {
 
         <br/><br/>
 
-        <Link to = "/melee/marth/1" >
+        <Link to = "/melee/marth/0" >
           <img src={require('../melee/marth_icon.png')} alt = "Icons"/>
         </Link>
-        <Link to = "/melee/falcon/1" >
+        <Link to = "/melee/falcon/0" >
           <img src={require('../melee/falcon_icon.png')} alt = "Icons"/>
         </Link>
-        <Link to = "/melee/falco/1" >
+        <Link to = "/melee/falco/0" >
           <img src={require('../melee/falco_icon.png')} alt = "Icons"/>
         </Link>
 
