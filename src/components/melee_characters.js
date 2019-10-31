@@ -46,7 +46,7 @@ export default class MeleeCharacters extends Component {
     }
 
     return(
-      <img src={require(`../melee/${c}${num}.gif`)}
+      <img src={require(`../melee/${this.state.character}${this.state.id}.gif`)}
         className="col-md-8 img-responsive" alt = "Combo"/>
     );
   }
