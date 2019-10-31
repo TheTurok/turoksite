@@ -24,10 +24,10 @@ export default class MeleeCharacters extends Component {
         this.setState({file_count:6});
         break;
       case 'falcon':
-        this.setState({file_count:3});
+        this.setState({file_count:4});
         break;
       case 'marth':
-        this.setState({file_count:8});
+        this.setState({file_count:7});
         break;
       default:
         this.setState({file_count:2});
