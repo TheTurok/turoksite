@@ -16,6 +16,8 @@ export default class MeleeCharacters extends Component {
       id: Number(id),
       character: character
     }
+    
+    this.retrieveGIF = this.retrieveGIF.bind(this);
   }
 
   componentWillMount(){
