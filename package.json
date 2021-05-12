@@ -11,7 +11,7 @@
     "fs": "0.0.1-security",
     "list-react-files": "^0.2.0",
     "modern-scripts": "2.2.0",
-    "nodemailer": "^4.6.8",
+    "nodemailer": "^6.4.16",
     "nodemon": "^1.18.5",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
